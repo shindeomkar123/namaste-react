@@ -16,3 +16,4 @@
 - Differential bundling - support older browser
 - Diagnostics
 - host app on HTTPS
+- Treeshaking
