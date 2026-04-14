@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is namaste react by omkar shinde",
+  "keywords": [],
+  "homepage": "https://github.com/shindeomkar123/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/shindeomkar123/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shindeomkar123/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "omkar shinde",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
