@@ -17,3 +17,18 @@
 - Diagnostics
 - host app on HTTPS
 - Treeshaking
+
+# Default imports
+
+    import RestaurantCard from "./RestaurantCard";
+
+# Named imports
+
+    import { restaurants } from "../utils/mockData";
+
+# React Hooks - Normal JS functions
+
+    Normal JS functions with some utilities wriiten by react developers.
+
+- useState() - create state variables
+- useEffect()

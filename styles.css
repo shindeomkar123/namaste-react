@@ -64,3 +64,12 @@ body {
   overflow: hidden; /* Hides the text that goes outside the box */
   text-overflow: ellipsis;
 }
+
+.filters {
+  padding: 10px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  padding: 10px;
+}
