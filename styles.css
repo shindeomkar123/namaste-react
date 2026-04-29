@@ -1,3 +1,7 @@
+body {
+  font-family: "Elms Sans", sans-serif;
+}
+
 .hello {
   color: red;
 }
@@ -32,12 +36,14 @@
 
 .rest-card {
   width: 200px;
-  max-height: 300px;
-  height: 300px;
+  max-height: 370px;
+  height: 370px;
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 1rem;
   .rest-img {
     width: inherit;
+    height: 200px;
   }
 }
 .rest-card:hover {
@@ -50,4 +56,11 @@
   justify-content: center;
   height: 50px;
   padding: 40px;
+}
+
+.cuisines {
+  width: 200px; /* Or any fixed width/max-width */
+  white-space: nowrap; /* Prevents text from wrapping to a new line */
+  overflow: hidden; /* Hides the text that goes outside the box */
+  text-overflow: ellipsis;
 }
